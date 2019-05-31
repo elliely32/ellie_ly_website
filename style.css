@@ -1,0 +1,89 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Barlow', sans-serif;
+	background-color: #111;
+}
+.aboutMain{
+	position: absolute;
+	height:100vh;
+	width: 100%;
+	background-image: url("assets/aboutImage.JPG");
+	background-size: 100vw;
+ 	background-position: center; 
+}
+
+.menuButton {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #efefef;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.menuButton{
+	padding:10px;
+	position: absolute;
+	right:30px;
+	top:15px;
+}
+.half{
+	height:100vh;
+	width:50%;
+	background-color: rgba(0,0,0,0.7);
+}
+#image{
+	border-radius: 50%;
+}
+.navbar{
+	padding:5px 5px;
+	background-color:#111; 
+	position: relative;
+	text-align: center;
+
+}
+
+.nav{
+	width: 100%;
+	left:50%;
+}
+
+
+.nav-link{
+	padding:0px;
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	font-size:23px;
+	color:white;
+	float:left;
+	border:none;
+	line-height: 70px;
+	color:#fff;
+}
+.nav-item{
+	padding-right: 15px;
+	padding-left: 15px;
+	display: inline-block;
+}
+
+.nav-item :hover {
+	color:#999;
+}
