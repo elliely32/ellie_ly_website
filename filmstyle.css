@@ -1,0 +1,76 @@
+@font-face{
+	font-family: FuturaPTBook;
+	src:url(assets/FuturaPTBook.otf);
+}
+
+@font-face{
+	font-family: FuturaPTDemi;
+	src:url(assets/FuturaPTDemi.otf);
+}
+
+.filmprojects{
+	display: grid;
+	grid-template-areas: 
+	'sp gd so'
+	'mg ci an';
+	grid-gap: 15px;
+	grid-row-gap: 20px;
+	padding:15px;
+
+}
+.textoverlay{
+	position:
+}
+
+.filmprojects div{
+    backface-visibility: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.filmprojects div:hover{
+	opacity: 0.5;
+}
+
+.filmprojects p{
+	font-family: FuturaPTDemi;
+}
+
+#spartan{
+	grid-area:sp;
+}
+
+
+#guard{
+	grid-area:gd;
+}
+
+#standoff{
+	grid-area: so;
+}
+
+#media{
+	grid-area: mg;
+}
+
+#coney{
+	grid-area: ci;
+}
+
+#animation{
+	grid-area: an;
+}
+
+
+#spartanid{
+	grid-area:sp;
+}
+
+/*.....*/
+
+
+iframe{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
