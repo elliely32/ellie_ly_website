@@ -92,3 +92,12 @@ iframe{
 .desciption{
 	grid-area:des;
 }
+
+
+.description h1{
+	padding-top: 30px;
+	font-family: FuturaPTDemi;
+	font-size:50px;
+	letter-spacing: 1px;
+	color:#0090c6;
+}
