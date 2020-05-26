@@ -74,24 +74,28 @@ a:hover{
 .aboutcontent img{
 	grid-area: ai;
 	margin:50px;
+	margin-right:0px;
 	width:40vw;
 	height:auto;
 }
 
 .aboutcontent div{
-	font-family: FuturaPTBook;
-	margin:45px;
 	grid-area: ad;
+	font-family: FuturaPTBook;
+	margin:50px;
 	width:35vw;
 }
 
 .aboutcontent div h1{
 	color:#0090c6;
+	font-size: 60px;
+	letter-spacing: 5px;
 	font-family: FuturaPTDemi;
 }
 
 .aboutcontent div p{
-	font-size: 21px;
+	text-align: justify;
+	font-size: 20px;
 }
 
 .aboutcontent a{
@@ -106,19 +110,17 @@ a:hover{
 	height: 100vh;	
 	color: black;
 }
-.workcontent h1{
+.subpagetitle{
 	padding-top: 30px;
-	padding-bottom: 8px;
 	text-align: center;
 	font-family: FuturaPTDemi;
-	font-size:70px;
+	font-size:60px;
 	letter-spacing: 5px;
 	color:#0090c6;
 }
 
-.workcontent p{
+.subpageblurb{
 	text-align: center;
 	font-size: 25px;
 	font-family:FuturaPTBook;
 }
-
