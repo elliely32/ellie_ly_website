@@ -1,0 +1,63 @@
+@font-face{
+	font-family: FuturaPTBook;
+	src:url(../assets/FuturaPTBook.otf);
+}
+
+@font-face{
+	font-family: FuturaPTDemi;
+	src:url(../assets/FuturaPTDemi.otf);
+}
+
+.workcontent{
+	height:213vh;
+}
+
+.figmentalworld {
+	display: grid;
+	grid-template-areas:
+	'img descrip';
+}
+
+
+.figmentalworld img{
+	grid-area:img;
+	height:auto;
+	width: 600px;
+	margin:30px; 
+}
+
+.description{
+	grid-area:descrip;
+	margin: 20px;
+	margin-top: 10px;
+}
+
+.description h1{
+	padding-top: 30px;
+	font-family: FuturaPTDemi;
+	font-size:60px;
+	letter-spacing: 1px;
+	color:#0090c6;
+}
+
+.description p{
+	font-size: 21px;
+
+}
+
+.description a{
+	font-family: FuturaPTDemi;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+iframe{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#subinfo{
+	color:grey;
+}
