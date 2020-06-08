@@ -37,6 +37,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	box-shadow: 0 0 15px 0 black;
+	z-index:1000;
 }
 
 header *{
@@ -74,7 +75,7 @@ a:hover{
 	grid-area: ai;
 	margin:50px;
 	margin-right:0px;
-	width:40vw;
+	width:41vw;
 	height:auto;
 }
 
@@ -93,8 +94,7 @@ a:hover{
 }
 
 .aboutcontent div p{
-	text-align: justify;
-	font-size: 20px;
+	font-size: 21px;
 }
 
 .aboutcontent a{
@@ -114,12 +114,30 @@ a:hover{
 	text-align: center;
 	font-family: FuturaPTDemi;
 	font-size:60px;
-	letter-spacing: 5px;
+	letter-spacing:5px;
 	color:#0090c6;
 }
 
 .subpageblurb{
-	text-align: center;
-	font-size: 25px;
 	font-family:FuturaPTBook;
+	text-align: center;
+	font-size:25px;
+}
+
+.footerspace{
+	margin-left: 25px;
+	margin-top: -25px;
+	margin-right: 25px;
+	height: 150px;
+	background-color: #fff;
+}
+
+.footerspace p{
+	text-align: center;
+	color: black;
+}
+
+.subfooter{
+	font-family: FuturaPTDemi;
+	font-size: 27px;
 }

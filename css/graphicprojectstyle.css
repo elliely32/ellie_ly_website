@@ -1,0 +1,107 @@
+@font-face{
+	font-family: FuturaPTBook;
+	src:url(../assets/FuturaPTBook.otf);
+}
+
+@font-face{
+	font-family: FuturaPTDemi;
+	src:url(../assets/FuturaPTDemi.otf);
+}
+
+.graphicproject{
+	display:grid;
+	grid-template-areas: 
+	'vid des';
+}
+
+
+.graphicproject img{
+	grid-area:vid;
+	display: block;
+	margin:45px;
+}
+
+
+.description{
+	grid-area:des;
+	padding-right: 35px;
+	width: 30vw;
+}
+
+.description h1{
+	padding-top: 30px;
+	font-family: FuturaPTDemi;
+	font-size:60px;
+	letter-spacing: 1px;
+	color:#0090c6;
+}
+
+p{
+	font-size: 21px;
+	align-items: left;
+}
+
+.secondlvl{
+	display:grid;
+	grid-template-areas: 
+	'des2 med2';
+}
+
+.seconddescr{
+	grid-area: des2;
+	padding-left:45px;
+	width: 33vw;
+	padding-top: 36px;
+}
+
+.secondmedia{
+	grid-area:med2;
+}
+
+#secondmedia{
+	grid-area:med2;
+}
+
+
+.thirdlvl{
+	display:grid;
+	grid-template-areas: 
+	'media3 des3';
+}
+
+.thirdmedia{
+	grid-area:media3;
+	margin:45px;
+	margin-right: 0px;
+}
+
+#thirdmedia{
+	grid-area:media3;
+	margin:45px;
+	margin-right: 0px;
+}
+
+.thirddesc{
+	grid-area:des3;
+	padding-top: 45px;
+	width:55vh;
+}
+
+.fourthlvl{
+	display:grid;
+	grid-template-areas: 
+	'des4 media4';
+}
+
+.fourthmedia{
+	grid-area:media4;
+}
+
+.fourthdesc{
+	grid-area:des4;
+
+	padding-left:45px;
+	width: 33vw;
+	padding-top: 36px;
+}
+

@@ -11,8 +11,8 @@
 .filmprojects{
 	display: grid;
 	grid-template-areas: 
-	'sp gd so'
-	'mg ci an';
+	'sp mg gd'
+	'so ci an';
 	grid-gap: 15px;
 	grid-row-gap: 20px;
 	padding:15px;
@@ -81,23 +81,44 @@
 }
 
 
-
-
 iframe{
 	grid-area:vid;
 	display: block;
 	padding:45px;
 }
 
-.desciption{
+.description{
 	grid-area:des;
+	padding-right: 35px;
+	width: 30vw;
 }
-
 
 .description h1{
 	padding-top: 30px;
 	font-family: FuturaPTDemi;
-	font-size:50px;
+	font-size:60px;
 	letter-spacing: 1px;
 	color:#0090c6;
+}
+
+.description p{
+	font-size: 21px;
+}
+
+.secondlvl{
+	display:grid;
+	grid-template-areas: 
+	'des2 vid2';
+}
+
+.seconddescr{
+	grid-area: des2;
+	font-size: 21px;
+	padding-left:45px;
+	width: 31vw;
+	padding-top: 36px;
+}
+
+.secondmedia{
+	grid-area:vid2;
 }
