@@ -8,36 +8,35 @@
 	src:url(../assets/FuturaPTDemi.otf);
 }
 
-.graphicproject{
+.firstlvl{
 	display:grid;
 	grid-template-areas: 
 	'vid des';
 }
 
 
-.graphicproject img{
+.firstlvl img{
 	grid-area:vid;
-	display: block;
 	margin:45px;
+	width: 45vw;
 }
 
 
 .description{
 	grid-area:des;
-	padding-right: 35px;
-	width: 30vw;
+	width:auto;
 }
 
 .description h1{
-	padding-top: 30px;
+	padding-top:30px;
 	font-family: FuturaPTDemi;
-	font-size:60px;
+	font-size:4.5vw;
 	letter-spacing: 1px;
 	color:#0090c6;
 }
 
 p{
-	font-size: 21px;
+	font-size:1.3vw;
 	align-items: left;
 }
 
@@ -48,20 +47,23 @@ p{
 }
 
 .seconddescr{
-	grid-area: des2;
+	grid-area:des2;
 	padding-left:45px;
-	width: 33vw;
-	padding-top: 36px;
+	width: auto;
 }
 
-.secondmedia{
-	grid-area:med2;
+.seconddescr p{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
 #secondmedia{
 	grid-area:med2;
+	width: 45vw;
+	margin-right:45px;
+	margin-left:45px;
 }
-
 
 .thirdlvl{
 	display:grid;
@@ -69,22 +71,26 @@ p{
 	'media3 des3';
 }
 
-.thirdmedia{
-	grid-area:media3;
-	margin:45px;
-	margin-right: 0px;
-}
-
 #thirdmedia{
 	grid-area:media3;
 	margin:45px;
-	margin-right: 0px;
+	width:45vw;
 }
 
 .thirddesc{
 	grid-area:des3;
-	padding-top: 45px;
-	width:55vh;
+	padding-right: 45px;
+	width:auto;
+}
+
+.thirddesc p{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.thirddesc em{
+	font-family: FuturaPTDemi;
 }
 
 .fourthlvl{
@@ -95,13 +101,21 @@ p{
 
 .fourthmedia{
 	grid-area:media4;
+	width: 45vw;
+	margin-right:45px;
+	margin-left:45px;
+	margin-bottom: 45px;
 }
 
 .fourthdesc{
 	grid-area:des4;
-
 	padding-left:45px;
-	width: 33vw;
-	padding-top: 36px;
+	width:auto;
+}
+
+.fourthdesc p{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
