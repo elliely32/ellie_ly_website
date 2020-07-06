@@ -14,7 +14,7 @@
 	'sp mg gd'
 	'so ci an';
 	grid-gap: 15px;
-	grid-row-gap: 20px;
+	grid-row-gap:20px;
 	padding:15px;
 }
 
@@ -82,6 +82,8 @@
 iframe{
 	grid-area:vid;
 	margin:45px;
+	width: 864px;
+	height: 486px;
 }
 
 p{
@@ -90,7 +92,7 @@ p{
 
 .description{
 	grid-area:des;
-	padding-right: 45px;
+	padding-right:45px;
 	width:auto;
 }
 

@@ -25,6 +25,7 @@
 .description{
 	grid-area:des;
 	width:auto;
+	margin-right: 45px;
 }
 
 .description h1{
