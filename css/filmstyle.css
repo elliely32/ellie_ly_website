@@ -9,18 +9,18 @@
 }
 
 .filmprojects{
-	display: grid;
+	display:grid;
 	grid-template-areas: 
 	'sp mg gd'
 	'so ci an';
 	grid-gap: 15px;
-	grid-row-gap: 20px;
+	grid-row-gap:20px;
 	padding:15px;
 }
 
 .filmprojects div{
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.4vw;
 	font-family:FuturaPTBook;
 	letter-spacing: 1px;
 }
@@ -28,6 +28,8 @@
 .filmprojects img{
     backface-visibility: hidden;
     transition: all 0.3s ease 0s;
+    width:28vw;
+    height:auto;
 }
 
 .filmprojects img:hover{
@@ -71,38 +73,35 @@
 /*.....*/
 
 
-
-
-
-.filmproject{
+.firstlvl{
 	display:grid;
 	grid-template-areas: 
 	'vid des';
 }
 
-
 iframe{
 	grid-area:vid;
-	display: block;
-	padding:45px;
+	margin:45px;
+	width: 864px;
+	height: 486px;
+}
+
+p{
+	font-size:1.3vw;
 }
 
 .description{
 	grid-area:des;
-	padding-right: 35px;
-	width: 30vw;
+	padding-right:45px;
+	width:auto;
 }
 
 .description h1{
-	padding-top: 30px;
+	padding-top:30px;
 	font-family: FuturaPTDemi;
-	font-size:60px;
+	font-size:4.5vw;
 	letter-spacing: 1px;
 	color:#0090c6;
-}
-
-.description p{
-	font-size: 21px;
 }
 
 .secondlvl{
@@ -112,13 +111,18 @@ iframe{
 }
 
 .seconddescr{
-	grid-area: des2;
-	font-size: 21px;
+	grid-area:des2;
 	padding-left:45px;
-	width: 31vw;
-	padding-top: 36px;
+	width:auto;
+}
+
+.seconddescr p{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
 .secondmedia{
 	grid-area:vid2;
+	margin:45px;
 }

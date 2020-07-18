@@ -20,12 +20,13 @@
 
 .graphicprojects div{
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.4vw;
 	font-family:FuturaPTBook;
 	letter-spacing: 1px;
 }
 
 .graphicprojects img{
+	width: 27vw;
     backface-visibility: hidden;
     transition: all 0.3s ease 0s;
 }

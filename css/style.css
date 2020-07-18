@@ -49,6 +49,7 @@ header *{
 header li{
 	margin: 30px;
 	letter-spacing: 3.5px;
+	font-size: 1.1vw;
 }
 
 
@@ -67,14 +68,13 @@ a:hover{
 	grid-template-areas: 
 	'ai ad';
 	margin: 25px;
-	height: 100vh;	
 	color: black;
 }
 
 .aboutcontent img{
 	grid-area: ai;
-	margin:50px;
-	margin-right:0px;
+	margin:45px;
+	margin-right:45px;
 	width:41vw;
 	height:auto;
 }
@@ -82,19 +82,19 @@ a:hover{
 .aboutcontent div{
 	grid-area: ad;
 	font-family: FuturaPTBook;
-	margin:50px;
-	width:35vw;
+	margin:45px;
+	width:auto;
 }
 
 .aboutcontent div h1{
 	color:#0090c6;
-	font-size: 60px;
+	font-size:4.5vw;
 	letter-spacing: 5px;
 	font-family: FuturaPTDemi;
 }
 
 .aboutcontent div p{
-	font-size: 21px;
+	font-size:1.4vw;
 }
 
 .aboutcontent a{
@@ -106,7 +106,6 @@ a:hover{
 .workcontent{
 	background-color: white;
 	margin: 25px;
-	height: 100vh;	
 	color: black;
 }
 .subpagetitle{
