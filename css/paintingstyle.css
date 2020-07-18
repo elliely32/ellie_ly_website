@@ -12,7 +12,8 @@
 	display: grid;
 	grid-template-areas: 
 	'pa1 pa2 pa3'
-	'pa4 pa5 pa6';
+	'pa4 pa5 pa6'
+	'pa7 pa8 pa9';
 	grid-gap: 15px;
 	padding:10px;
 }
@@ -57,4 +58,16 @@
 
 #pa6{
 	grid-area: pa6;
+}
+
+#pa7{
+	grid-area: pa7;
+}
+
+#pa8{
+	grid-area: pa8;
+}
+
+#pa9{
+	grid-area: pa9;
 }
