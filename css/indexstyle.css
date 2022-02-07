@@ -42,7 +42,7 @@
 .indexprojects{
 	display: grid;
 	grid-template-areas: 
-	'fw pa sk';
+	'fw pa';
 	grid-gap: 15px;
 	grid-row-gap: 20px;
 	padding:15px;
