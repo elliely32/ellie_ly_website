@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ellie Ly</title>
+	<link rel="icon" href="assets/Icon-2.0.png" type="image/png" sizes="16x16">
+  	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/graphicprojectstyle.css">
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="assets/ellie_ly_logo.png" class="imglogo"></a>
+		<nav>
+			<ul>	
+				<li><a href="codingProject.html">CODING PROJECTS</a></li>
+				<li><a href="artProject.html">ART PROJECTS</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+			</ul>
+	  	</nav>
+  	</header>
+
+	<main>
+		<div class="workcontent">
+			<div class="firstlvl">
+				<IMG src="assets/CODE/duck-all.png" style=" height:auto; border:2px solid black;">
+				<div class="description">
+					<h1>DUCKEYE EMPORIUM</h1>
+					<i><p style="color:grey">Software Used to Make The Project: Express, Sequelize, React, Redux, JSON Web Token, Heroku Deployment, Bootstrap</p></i>
+					<P>
+						Duckeye Emporium is an e-commerce site dedicated to selling the finest cat supplies on the market. Users can login and view their past orders and carts, or simply browse, add to cart and checkout! This project was created in collaboration with Nhu Quynh Le, Ellie Ly, Melissa Moy, and Yooboo Park.
+
+					</P>
+				</div>
+			</div>
+			<div class="secondlvl">
+				<div class="seconddescr">
+					<p>
+						This is a project meant to help us understand the tech and workings behind e-commerce sites. We started from scratch and collaborated to figure out how to implement different feature of the website. My role in this project focused mainly on security and authentication. I ensured that logins for users was hashes before storing into the database, gatekept certain parts of the website so that only admins could access those sections, and made preventative measures agianst injection attacks by selectively intaking informations in post requests.
+					</p>
+				</div>
+				<img src="assets/CODE/duck-single.png" id="secondmedia" style="border:2px solid black">
+			</div>
+			<div class="thirdlvl">
+				<img src="assets//CODE/duck-cart.png" id="thirdmedia" style="border:2px solid black">
+				<div class="thirddesc">
+					<p>
+						Besides security and authentication, I also worked on API routes both on the front-end and back-end. We used tokens to authenticate users and thus needed to ensure they were passed along from front-end local storage to reach the back-end to authenticate. I defined the different database models needed and created the various CRUD routes. Specific routes such as PUT and DELETE should only be accessed by admins, so I implemented middlewares to ensure a user was an admin before allowing them to access the information.
+						<br><br>
+						In the end we learned a lot from this project! I have new found respect for e-commerce site developers and tech like shopify who have created an efficent and elegant cart system.
+					</p>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footerspace">
+			<p class="subfooter" style="padding-top:10px; margin-bottom: -3px; letter-spacing: 2px;">
+				Tell me your story!
+				<br>
+			</p>
+			<p style="letter-spacing: 3px; margin-bottom: 5px;">
+				<a href="https://www.linkedin.com/in/elliely32/" style="font-size: 35px;" target="_blank">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/elliely32" style="font-size: 35px;" target="_blank">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://www.instagram.com/sketchie_ellie/" style="font-size: 35px;" target="_blank"k>
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="mailto:elliel.4797@gmail.com" style="font-size: 35px;" target="_blank">
+					<i class="far fa-envelope"></i>
+				</a>
+			</p>
+			<p style="color: #999">
+				 © 2022 Ellie Ly, All Rights Reserved.
+			</p>
+			</p>
+			</div>
+		</footer>
+	</main>
+
+</body>
+</html>
