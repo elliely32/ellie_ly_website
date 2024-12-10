@@ -9,14 +9,11 @@
 }
 
 .illustrationprojects{
-	display: grid;
-	grid-template-areas: 
-	'fw pa sk';
-	grid-gap: 15px;
-	grid-row-gap: 20px;
 	padding:15px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
 }
-
 
 .illustrationprojects div{
 	text-align: center;
@@ -29,6 +26,8 @@
 	width: 27vw;
     backface-visibility: hidden;
     transition: all 0.3s ease 0s;
+	box-shadow: 0 0 15px #8f8f8f;
+	margin:15px
 }
 
 .illustrationprojects img:hover{
@@ -39,15 +38,8 @@
 	font-family: FuturaPTDemi;
 }
 
-#figmental{
-	grid-area:fw;
-}
-
-
-#paintings{
-	grid-area:pa;
-}
-
-#sketches{
-	grid-area:sk;
+.illustrationRow{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
 }

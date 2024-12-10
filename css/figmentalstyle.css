@@ -57,3 +57,12 @@ iframe{
 #subinfo{
 	color:grey;
 }
+
+/* style for metamorphosis */
+
+#metamorphosis{
+	margin:40px 0;
+	width:50vw;
+	height:auto;
+	box-shadow: 0 0 30px #333;
+}
