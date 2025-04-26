@@ -9,5 +9,5 @@ It's time I recreated my portfolio site from scratch but before that, I wanted t
 
 TODO: 
 - navigate through the commits and try to find each 'version' of this website = document how each version looked!
-- right a list of bad things about this website - things I definitely want to avoid, whether it's style or coding practice
-- right a list of the good things - things I'm actually proud of and would consider putting into the new portfolio website
+- write a list of bad things about this website - things I definitely want to avoid, whether it's style or coding practice
+- write a list of the good things - things I'm actually proud of and would consider putting into the new portfolio website

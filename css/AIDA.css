@@ -1,0 +1,130 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: 'PixelifySans';
+    src: url('../assets/AIDA/PixelifySans-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: #111111;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+
+.modalContainer{
+    display: hidden;
+}
+
+.loaderContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader {
+    border: 10px solid #bbbbbb;
+    border-top: 10px solid #0090c6;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    animation: spin 1s linear infinite;
+}
+
+
+.loaderText {
+    color: #bbbbbb;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.loaderTextAida{
+    color:#0090c6
+}
+
+.aidaFrame{
+    display: none;
+    justify-content: center;
+}
+
+.AIDAimage {
+    width: 50%
+}
+
+
+.textBox{
+    display: none;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 7px solid #0090c6;
+    min-height:25%;
+    width:80%
+}
+
+.AIDAtext{
+    font-family: PixelifySans;
+    color: #0090c6;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 0px 20px
+}
+
+.fileInputContainer{
+    display: none;
+    margin:20px auto;
+    padding: 10px;
+    width:100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #00749f;
+    color:#bbbbbb;
+    border-radius: 4px;
+}
+.fileInputContainer:hover{
+    background-color: #004b66;
+}
+
+.textInput{
+    display: none;
+    width:300px;
+    margin:0 auto;
+}
+
+.textInputContainer{
+    display: none;
+    margin:20px auto;
+    padding: 10px;
+    max-width:200px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #00749f;
+    color:#bbbbbb;
+    border-radius: 4px;
+}
+.textInputContainer:hover{
+    background-color: #004b66;
+}
+
+.button{
+    display: none;
+    font-size: 18px;
+    color: #bbbbbb;
+    font-family: PixelifySans;
+    margin:2px 0px 2px 20px;
+}
+
+.button:hover{
+    color:#0090c6
+}
