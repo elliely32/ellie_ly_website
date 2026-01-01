@@ -1,0 +1,38 @@
+@font-face {
+  font-family: FuturaPTBook;
+  src: url(../assets/FuturaPTBook.otf);
+}
+
+@font-face {
+  font-family: FuturaPTDemi;
+  src: url(../assets/FuturaPTDemi.otf);
+}
+
+.bg {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 10px;
+}
+
+.planet {
+  height: 30%;
+}
+
+.header {
+  font-family: FuturaPTDemi;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+}
+
+.subHeader {
+  font-family: FuturaPTDemi;
+  font-size: 4vw;
+  color: rgba(141, 141, 141, 0.575);
+  text-align: center;
+}
